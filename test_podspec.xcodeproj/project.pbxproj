@@ -332,6 +332,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/test_podspec",
 				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/test_podspec/PaylevenInAppSDK.framework/Headers\"";
 				INFOPLIST_FILE = test_podspec/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -352,6 +353,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/test_podspec",
 				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/test_podspec/PaylevenInAppSDK.framework/Headers\"";
 				INFOPLIST_FILE = test_podspec/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -400,6 +402,7 @@
 				6D6FEF071D8045570040B05E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D6FEF081D8045570040B05E /* Build configuration list for PBXNativeTarget "test_podspecTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +411,7 @@
 				6D6FEF0A1D8045570040B05E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

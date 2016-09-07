@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <PaylevenInAppSDK/PLVInAppSDK.h>
+#import "PLVInAppSDK.h"
 
 @interface MainClass : NSObject
 
