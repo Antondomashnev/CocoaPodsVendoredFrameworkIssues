@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.framework = 'JavaScriptCore'
-  s.vendored_frameworks = 'test_podspec/PaylevenInAppSDK.framework'
+  s.vendored_frameworks = 'PaylevenInAppSDK.framework'
 
 end

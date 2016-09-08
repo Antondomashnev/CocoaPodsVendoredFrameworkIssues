@@ -330,7 +330,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/test_podspec",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = test_podspec/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -350,7 +350,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/test_podspec",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = test_podspec/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -400,6 +400,7 @@
 				6D6FEF071D8045570040B05E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D6FEF081D8045570040B05E /* Build configuration list for PBXNativeTarget "test_podspecTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +409,7 @@
 				6D6FEF0A1D8045570040B05E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
